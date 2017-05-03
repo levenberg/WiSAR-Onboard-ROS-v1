@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/kelfor/Documents/WiSAR-Onboard-ROS/src/dji_sdk_read_cam/src/apriltagdetector.cpp" "/home/kelfor/Documents/WiSAR-Onboard-ROS/src/dji_sdk_read_cam/cmake-build-debug/CMakeFiles/dji_sdk_read_cam.dir/src/apriltagdetector.cpp.o"
+  "/home/kelfor/Documents/WiSAR-Onboard-ROS/src/dji_sdk_read_cam/src/x3_apriltag_cam_demo.cpp" "/home/kelfor/Documents/WiSAR-Onboard-ROS/src/dji_sdk_read_cam/cmake-build-debug/CMakeFiles/dji_sdk_read_cam.dir/src/x3_apriltag_cam_demo.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -21,10 +22,10 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../include"
   "../include/AprilTags"
   "../include/DJI"
+  "/opt/ros/indigo/include"
   "/home/kelfor/Documents/WiSAR-Onboard-ROS/devel/include"
   "/home/kelfor/Documents/WiSAR-Onboard-ROS/src/dji_sdk/include"
   "/home/kelfor/Documents/WiSAR-Onboard-ROS/src/dji_sdk_lib/include"
-  "/opt/ros/indigo/include"
   "/usr/include/eigen3"
   )
 

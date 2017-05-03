@@ -1,7 +1,7 @@
 /home/kelfor/Documents/clion-2016.3.3/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/kelfor/Documents/WiSAR-Onboard-ROS/src/dji_sdk_read_cam
 -- Using CATKIN_DEVEL_PREFIX: /home/kelfor/Documents/WiSAR-Onboard-ROS/src/dji_sdk_read_cam/cmake-build-debug/devel
--- Using CMAKE_PREFIX_PATH: /home/kelfor/Documents/WiSAR-Onboard-ROS/devel;/opt/ros/indigo
--- This workspace overlays: /home/kelfor/Documents/WiSAR-Onboard-ROS/devel;/opt/ros/indigo
+-- Using CMAKE_PREFIX_PATH: /home/kelfor/Documents/flir-vue-pro/devel;/opt/ros/indigo
+-- This workspace overlays: /home/kelfor/Documents/flir-vue-pro/devel;/opt/ros/indigo
 -- Using PYTHON_EXECUTABLE: /usr/bin/python
 -- Using Debian Python package layout
 -- Using empy: /usr/bin/empy
@@ -24,5 +24,16 @@ Call Stack (most recent call first):
 
 
 -- Configuring done
+CMake Error at CMakeLists.txt:67 (add_executable):
+  Cannot find source file:
+
+    //apriltagdetector.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+
+
+CMake Error: CMake can not determine linker language for target: dji_sdk_read_cam
+CMake Error: Cannot determine link language for target "dji_sdk_read_cam".
 -- Generating done
 -- Build files have been written to: /home/kelfor/Documents/WiSAR-Onboard-ROS/src/dji_sdk_read_cam/cmake-build-debug

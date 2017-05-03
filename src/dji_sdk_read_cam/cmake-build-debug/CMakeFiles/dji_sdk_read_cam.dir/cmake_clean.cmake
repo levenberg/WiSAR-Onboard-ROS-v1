@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/dji_sdk_read_cam.dir/src/x3_apriltag_cam_demo.cpp.o"
   "CMakeFiles/dji_sdk_read_cam.dir/src/apriltagdetector.cpp.o"
   "devel/lib/dji_sdk_read_cam/dji_sdk_read_cam.pdb"
   "devel/lib/dji_sdk_read_cam/dji_sdk_read_cam"

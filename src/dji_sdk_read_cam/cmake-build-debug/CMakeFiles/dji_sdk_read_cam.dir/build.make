@@ -57,9 +57,33 @@ include CMakeFiles/dji_sdk_read_cam.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/dji_sdk_read_cam.dir/flags.make
 
+CMakeFiles/dji_sdk_read_cam.dir/src/x3_apriltag_cam_demo.cpp.o: CMakeFiles/dji_sdk_read_cam.dir/flags.make
+CMakeFiles/dji_sdk_read_cam.dir/src/x3_apriltag_cam_demo.cpp.o: ../src/x3_apriltag_cam_demo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kelfor/Documents/WiSAR-Onboard-ROS/src/dji_sdk_read_cam/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/dji_sdk_read_cam.dir/src/x3_apriltag_cam_demo.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dji_sdk_read_cam.dir/src/x3_apriltag_cam_demo.cpp.o -c /home/kelfor/Documents/WiSAR-Onboard-ROS/src/dji_sdk_read_cam/src/x3_apriltag_cam_demo.cpp
+
+CMakeFiles/dji_sdk_read_cam.dir/src/x3_apriltag_cam_demo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dji_sdk_read_cam.dir/src/x3_apriltag_cam_demo.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kelfor/Documents/WiSAR-Onboard-ROS/src/dji_sdk_read_cam/src/x3_apriltag_cam_demo.cpp > CMakeFiles/dji_sdk_read_cam.dir/src/x3_apriltag_cam_demo.cpp.i
+
+CMakeFiles/dji_sdk_read_cam.dir/src/x3_apriltag_cam_demo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dji_sdk_read_cam.dir/src/x3_apriltag_cam_demo.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kelfor/Documents/WiSAR-Onboard-ROS/src/dji_sdk_read_cam/src/x3_apriltag_cam_demo.cpp -o CMakeFiles/dji_sdk_read_cam.dir/src/x3_apriltag_cam_demo.cpp.s
+
+CMakeFiles/dji_sdk_read_cam.dir/src/x3_apriltag_cam_demo.cpp.o.requires:
+
+.PHONY : CMakeFiles/dji_sdk_read_cam.dir/src/x3_apriltag_cam_demo.cpp.o.requires
+
+CMakeFiles/dji_sdk_read_cam.dir/src/x3_apriltag_cam_demo.cpp.o.provides: CMakeFiles/dji_sdk_read_cam.dir/src/x3_apriltag_cam_demo.cpp.o.requires
+	$(MAKE) -f CMakeFiles/dji_sdk_read_cam.dir/build.make CMakeFiles/dji_sdk_read_cam.dir/src/x3_apriltag_cam_demo.cpp.o.provides.build
+.PHONY : CMakeFiles/dji_sdk_read_cam.dir/src/x3_apriltag_cam_demo.cpp.o.provides
+
+CMakeFiles/dji_sdk_read_cam.dir/src/x3_apriltag_cam_demo.cpp.o.provides.build: CMakeFiles/dji_sdk_read_cam.dir/src/x3_apriltag_cam_demo.cpp.o
+
+
 CMakeFiles/dji_sdk_read_cam.dir/src/apriltagdetector.cpp.o: CMakeFiles/dji_sdk_read_cam.dir/flags.make
 CMakeFiles/dji_sdk_read_cam.dir/src/apriltagdetector.cpp.o: ../src/apriltagdetector.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kelfor/Documents/WiSAR-Onboard-ROS/src/dji_sdk_read_cam/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/dji_sdk_read_cam.dir/src/apriltagdetector.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kelfor/Documents/WiSAR-Onboard-ROS/src/dji_sdk_read_cam/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/dji_sdk_read_cam.dir/src/apriltagdetector.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dji_sdk_read_cam.dir/src/apriltagdetector.cpp.o -c /home/kelfor/Documents/WiSAR-Onboard-ROS/src/dji_sdk_read_cam/src/apriltagdetector.cpp
 
 CMakeFiles/dji_sdk_read_cam.dir/src/apriltagdetector.cpp.i: cmake_force
@@ -83,11 +107,13 @@ CMakeFiles/dji_sdk_read_cam.dir/src/apriltagdetector.cpp.o.provides.build: CMake
 
 # Object files for target dji_sdk_read_cam
 dji_sdk_read_cam_OBJECTS = \
+"CMakeFiles/dji_sdk_read_cam.dir/src/x3_apriltag_cam_demo.cpp.o" \
 "CMakeFiles/dji_sdk_read_cam.dir/src/apriltagdetector.cpp.o"
 
 # External object files for target dji_sdk_read_cam
 dji_sdk_read_cam_EXTERNAL_OBJECTS =
 
+devel/lib/dji_sdk_read_cam/dji_sdk_read_cam: CMakeFiles/dji_sdk_read_cam.dir/src/x3_apriltag_cam_demo.cpp.o
 devel/lib/dji_sdk_read_cam/dji_sdk_read_cam: CMakeFiles/dji_sdk_read_cam.dir/src/apriltagdetector.cpp.o
 devel/lib/dji_sdk_read_cam/dji_sdk_read_cam: CMakeFiles/dji_sdk_read_cam.dir/build.make
 devel/lib/dji_sdk_read_cam/dji_sdk_read_cam: devel/lib/libapriltags.so
@@ -153,7 +179,7 @@ devel/lib/dji_sdk_read_cam/dji_sdk_read_cam: /usr/lib/x86_64-linux-gnu/libopencv
 devel/lib/dji_sdk_read_cam/dji_sdk_read_cam: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.2.4.8
 devel/lib/dji_sdk_read_cam/dji_sdk_read_cam: /usr/lib/x86_64-linux-gnu/libopencv_core.so.2.4.8
 devel/lib/dji_sdk_read_cam/dji_sdk_read_cam: CMakeFiles/dji_sdk_read_cam.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kelfor/Documents/WiSAR-Onboard-ROS/src/dji_sdk_read_cam/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable devel/lib/dji_sdk_read_cam/dji_sdk_read_cam"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kelfor/Documents/WiSAR-Onboard-ROS/src/dji_sdk_read_cam/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable devel/lib/dji_sdk_read_cam/dji_sdk_read_cam"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/dji_sdk_read_cam.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -161,6 +187,7 @@ CMakeFiles/dji_sdk_read_cam.dir/build: devel/lib/dji_sdk_read_cam/dji_sdk_read_c
 
 .PHONY : CMakeFiles/dji_sdk_read_cam.dir/build
 
+CMakeFiles/dji_sdk_read_cam.dir/requires: CMakeFiles/dji_sdk_read_cam.dir/src/x3_apriltag_cam_demo.cpp.o.requires
 CMakeFiles/dji_sdk_read_cam.dir/requires: CMakeFiles/dji_sdk_read_cam.dir/src/apriltagdetector.cpp.o.requires
 
 .PHONY : CMakeFiles/dji_sdk_read_cam.dir/requires

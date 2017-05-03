@@ -1155,6 +1155,33 @@ src/apriltagdetector.cpp.s:
 	$(MAKE) -f CMakeFiles/dji_sdk_read_cam.dir/build.make CMakeFiles/dji_sdk_read_cam.dir/src/apriltagdetector.cpp.s
 .PHONY : src/apriltagdetector.cpp.s
 
+src/x3_apriltag_cam_demo.o: src/x3_apriltag_cam_demo.cpp.o
+
+.PHONY : src/x3_apriltag_cam_demo.o
+
+# target to build an object file
+src/x3_apriltag_cam_demo.cpp.o:
+	$(MAKE) -f CMakeFiles/dji_sdk_read_cam.dir/build.make CMakeFiles/dji_sdk_read_cam.dir/src/x3_apriltag_cam_demo.cpp.o
+.PHONY : src/x3_apriltag_cam_demo.cpp.o
+
+src/x3_apriltag_cam_demo.i: src/x3_apriltag_cam_demo.cpp.i
+
+.PHONY : src/x3_apriltag_cam_demo.i
+
+# target to preprocess a source file
+src/x3_apriltag_cam_demo.cpp.i:
+	$(MAKE) -f CMakeFiles/dji_sdk_read_cam.dir/build.make CMakeFiles/dji_sdk_read_cam.dir/src/x3_apriltag_cam_demo.cpp.i
+.PHONY : src/x3_apriltag_cam_demo.cpp.i
+
+src/x3_apriltag_cam_demo.s: src/x3_apriltag_cam_demo.cpp.s
+
+.PHONY : src/x3_apriltag_cam_demo.s
+
+# target to generate assembly for a file
+src/x3_apriltag_cam_demo.cpp.s:
+	$(MAKE) -f CMakeFiles/dji_sdk_read_cam.dir/build.make CMakeFiles/dji_sdk_read_cam.dir/src/x3_apriltag_cam_demo.cpp.s
+.PHONY : src/x3_apriltag_cam_demo.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1258,6 +1285,9 @@ help:
 	@echo "... src/apriltagdetector.o"
 	@echo "... src/apriltagdetector.i"
 	@echo "... src/apriltagdetector.s"
+	@echo "... src/x3_apriltag_cam_demo.o"
+	@echo "... src/x3_apriltag_cam_demo.i"
+	@echo "... src/x3_apriltag_cam_demo.s"
 .PHONY : help
 
 

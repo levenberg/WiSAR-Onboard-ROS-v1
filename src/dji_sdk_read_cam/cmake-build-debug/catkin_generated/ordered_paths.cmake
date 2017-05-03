@@ -1,1 +1,1 @@
-set(ORDERED_PATHS "/home/kelfor/Documents/WiSAR-Onboard-ROS/devel/lib;/opt/ros/indigo/lib")
+set(ORDERED_PATHS "/opt/ros/indigo/lib;/home/kelfor/Documents/WiSAR-Onboard-ROS/devel/lib")

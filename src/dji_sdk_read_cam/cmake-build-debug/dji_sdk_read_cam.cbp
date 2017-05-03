@@ -361,10 +361,10 @@
 					<Add directory="/home/kelfor/Documents/WiSAR-Onboard-ROS/src/dji_sdk_read_cam/include"/>
 					<Add directory="/home/kelfor/Documents/WiSAR-Onboard-ROS/src/dji_sdk_read_cam/include/AprilTags"/>
 					<Add directory="/home/kelfor/Documents/WiSAR-Onboard-ROS/src/dji_sdk_read_cam/include/DJI"/>
+					<Add directory="/opt/ros/indigo/include"/>
 					<Add directory="/home/kelfor/Documents/WiSAR-Onboard-ROS/devel/include"/>
 					<Add directory="/home/kelfor/Documents/WiSAR-Onboard-ROS/src/dji_sdk/include"/>
 					<Add directory="/home/kelfor/Documents/WiSAR-Onboard-ROS/src/dji_sdk_lib/include"/>
-					<Add directory="/opt/ros/indigo/include"/>
 					<Add directory="/usr/include/eigen3"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
 					<Add directory="/usr/local/include"/>
@@ -396,10 +396,10 @@
 					<Add directory="/home/kelfor/Documents/WiSAR-Onboard-ROS/src/dji_sdk_read_cam/include"/>
 					<Add directory="/home/kelfor/Documents/WiSAR-Onboard-ROS/src/dji_sdk_read_cam/include/AprilTags"/>
 					<Add directory="/home/kelfor/Documents/WiSAR-Onboard-ROS/src/dji_sdk_read_cam/include/DJI"/>
+					<Add directory="/opt/ros/indigo/include"/>
 					<Add directory="/home/kelfor/Documents/WiSAR-Onboard-ROS/devel/include"/>
 					<Add directory="/home/kelfor/Documents/WiSAR-Onboard-ROS/src/dji_sdk/include"/>
 					<Add directory="/home/kelfor/Documents/WiSAR-Onboard-ROS/src/dji_sdk_lib/include"/>
-					<Add directory="/opt/ros/indigo/include"/>
 					<Add directory="/usr/include/eigen3"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
 					<Add directory="/usr/local/include"/>
@@ -571,10 +571,10 @@
 					<Add directory="/home/kelfor/Documents/WiSAR-Onboard-ROS/src/dji_sdk_read_cam/include"/>
 					<Add directory="/home/kelfor/Documents/WiSAR-Onboard-ROS/src/dji_sdk_read_cam/include/AprilTags"/>
 					<Add directory="/home/kelfor/Documents/WiSAR-Onboard-ROS/src/dji_sdk_read_cam/include/DJI"/>
+					<Add directory="/opt/ros/indigo/include"/>
 					<Add directory="/home/kelfor/Documents/WiSAR-Onboard-ROS/devel/include"/>
 					<Add directory="/home/kelfor/Documents/WiSAR-Onboard-ROS/src/dji_sdk/include"/>
 					<Add directory="/home/kelfor/Documents/WiSAR-Onboard-ROS/src/dji_sdk_lib/include"/>
-					<Add directory="/opt/ros/indigo/include"/>
 					<Add directory="/usr/include/eigen3"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
 					<Add directory="/usr/local/include"/>
@@ -606,10 +606,10 @@
 					<Add directory="/home/kelfor/Documents/WiSAR-Onboard-ROS/src/dji_sdk_read_cam/include"/>
 					<Add directory="/home/kelfor/Documents/WiSAR-Onboard-ROS/src/dji_sdk_read_cam/include/AprilTags"/>
 					<Add directory="/home/kelfor/Documents/WiSAR-Onboard-ROS/src/dji_sdk_read_cam/include/DJI"/>
+					<Add directory="/opt/ros/indigo/include"/>
 					<Add directory="/home/kelfor/Documents/WiSAR-Onboard-ROS/devel/include"/>
 					<Add directory="/home/kelfor/Documents/WiSAR-Onboard-ROS/src/dji_sdk/include"/>
 					<Add directory="/home/kelfor/Documents/WiSAR-Onboard-ROS/src/dji_sdk_lib/include"/>
-					<Add directory="/opt/ros/indigo/include"/>
 					<Add directory="/usr/include/eigen3"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
 					<Add directory="/usr/local/include"/>
@@ -793,6 +793,9 @@
 			<Option target="apriltags"/>
 		</Unit>
 		<Unit filename="/home/kelfor/Documents/WiSAR-Onboard-ROS/src/dji_sdk_read_cam/src/apriltagdetector.cpp">
+			<Option target="dji_sdk_read_cam"/>
+		</Unit>
+		<Unit filename="/home/kelfor/Documents/WiSAR-Onboard-ROS/src/dji_sdk_read_cam/src/x3_apriltag_cam_demo.cpp">
 			<Option target="dji_sdk_read_cam"/>
 		</Unit>
 		<Unit filename="/usr/src/gtest/src/gtest-all.cc">

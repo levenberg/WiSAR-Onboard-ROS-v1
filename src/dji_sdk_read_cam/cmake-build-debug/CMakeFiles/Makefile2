@@ -390,7 +390,7 @@ CMakeFiles/dji_sdk_read_cam_generate_messages_cpp.dir/all: CMakeFiles/_dji_sdk_r
 CMakeFiles/dji_sdk_read_cam_generate_messages_cpp.dir/all: CMakeFiles/_dji_sdk_read_cam_generate_messages_check_deps_AprilTagPose.dir/all
 	$(MAKE) -f CMakeFiles/dji_sdk_read_cam_generate_messages_cpp.dir/build.make CMakeFiles/dji_sdk_read_cam_generate_messages_cpp.dir/depend
 	$(MAKE) -f CMakeFiles/dji_sdk_read_cam_generate_messages_cpp.dir/build.make CMakeFiles/dji_sdk_read_cam_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kelfor/Documents/WiSAR-Onboard-ROS/src/dji_sdk_read_cam/cmake-build-debug/CMakeFiles --progress-num=18,19 "Built target dji_sdk_read_cam_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kelfor/Documents/WiSAR-Onboard-ROS/src/dji_sdk_read_cam/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target dji_sdk_read_cam_generate_messages_cpp"
 .PHONY : CMakeFiles/dji_sdk_read_cam_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -458,7 +458,7 @@ CMakeFiles/dji_sdk_read_cam_generate_messages_py.dir/all: CMakeFiles/_dji_sdk_re
 CMakeFiles/dji_sdk_read_cam_generate_messages_py.dir/all: CMakeFiles/_dji_sdk_read_cam_generate_messages_check_deps_AprilTagPose.dir/all
 	$(MAKE) -f CMakeFiles/dji_sdk_read_cam_generate_messages_py.dir/build.make CMakeFiles/dji_sdk_read_cam_generate_messages_py.dir/depend
 	$(MAKE) -f CMakeFiles/dji_sdk_read_cam_generate_messages_py.dir/build.make CMakeFiles/dji_sdk_read_cam_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kelfor/Documents/WiSAR-Onboard-ROS/src/dji_sdk_read_cam/cmake-build-debug/CMakeFiles --progress-num=22,23,24 "Built target dji_sdk_read_cam_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kelfor/Documents/WiSAR-Onboard-ROS/src/dji_sdk_read_cam/cmake-build-debug/CMakeFiles --progress-num=23,24,25 "Built target dji_sdk_read_cam_generate_messages_py"
 .PHONY : CMakeFiles/dji_sdk_read_cam_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1370,7 +1370,7 @@ CMakeFiles/dji_sdk_read_cam_generate_messages_lisp.dir/all: CMakeFiles/_dji_sdk_
 CMakeFiles/dji_sdk_read_cam_generate_messages_lisp.dir/all: CMakeFiles/_dji_sdk_read_cam_generate_messages_check_deps_AprilTagPose.dir/all
 	$(MAKE) -f CMakeFiles/dji_sdk_read_cam_generate_messages_lisp.dir/build.make CMakeFiles/dji_sdk_read_cam_generate_messages_lisp.dir/depend
 	$(MAKE) -f CMakeFiles/dji_sdk_read_cam_generate_messages_lisp.dir/build.make CMakeFiles/dji_sdk_read_cam_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kelfor/Documents/WiSAR-Onboard-ROS/src/dji_sdk_read_cam/cmake-build-debug/CMakeFiles --progress-num=20,21 "Built target dji_sdk_read_cam_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kelfor/Documents/WiSAR-Onboard-ROS/src/dji_sdk_read_cam/cmake-build-debug/CMakeFiles --progress-num=21,22 "Built target dji_sdk_read_cam_generate_messages_lisp"
 .PHONY : CMakeFiles/dji_sdk_read_cam_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1435,7 +1435,7 @@ CMakeFiles/dji_sdk_read_cam.dir/all: CMakeFiles/dji_sdk_generate_messages_cpp.di
 CMakeFiles/dji_sdk_read_cam.dir/all: CMakeFiles/apriltags.dir/all
 	$(MAKE) -f CMakeFiles/dji_sdk_read_cam.dir/build.make CMakeFiles/dji_sdk_read_cam.dir/depend
 	$(MAKE) -f CMakeFiles/dji_sdk_read_cam.dir/build.make CMakeFiles/dji_sdk_read_cam.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kelfor/Documents/WiSAR-Onboard-ROS/src/dji_sdk_read_cam/cmake-build-debug/CMakeFiles --progress-num=16,17 "Built target dji_sdk_read_cam"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kelfor/Documents/WiSAR-Onboard-ROS/src/dji_sdk_read_cam/cmake-build-debug/CMakeFiles --progress-num=16,17,18 "Built target dji_sdk_read_cam"
 .PHONY : CMakeFiles/dji_sdk_read_cam.dir/all
 
 # Include target in all.
@@ -1445,7 +1445,7 @@ all: CMakeFiles/dji_sdk_read_cam.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/dji_sdk_read_cam.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kelfor/Documents/WiSAR-Onboard-ROS/src/dji_sdk_read_cam/cmake-build-debug/CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kelfor/Documents/WiSAR-Onboard-ROS/src/dji_sdk_read_cam/cmake-build-debug/CMakeFiles 18
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/dji_sdk_read_cam.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/kelfor/Documents/WiSAR-Onboard-ROS/src/dji_sdk_read_cam/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/dji_sdk_read_cam.dir/rule
@@ -1491,7 +1491,7 @@ gtest/preinstall:
 gtest/CMakeFiles/gtest_main.dir/all: gtest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f gtest/CMakeFiles/gtest_main.dir/build.make gtest/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) -f gtest/CMakeFiles/gtest_main.dir/build.make gtest/CMakeFiles/gtest_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kelfor/Documents/WiSAR-Onboard-ROS/src/dji_sdk_read_cam/cmake-build-debug/CMakeFiles --progress-num=27,28 "Built target gtest_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kelfor/Documents/WiSAR-Onboard-ROS/src/dji_sdk_read_cam/cmake-build-debug/CMakeFiles --progress-num=28,29 "Built target gtest_main"
 .PHONY : gtest/CMakeFiles/gtest_main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1523,7 +1523,7 @@ clean: gtest/CMakeFiles/gtest_main.dir/clean
 gtest/CMakeFiles/gtest.dir/all:
 	$(MAKE) -f gtest/CMakeFiles/gtest.dir/build.make gtest/CMakeFiles/gtest.dir/depend
 	$(MAKE) -f gtest/CMakeFiles/gtest.dir/build.make gtest/CMakeFiles/gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kelfor/Documents/WiSAR-Onboard-ROS/src/dji_sdk_read_cam/cmake-build-debug/CMakeFiles --progress-num=25,26 "Built target gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kelfor/Documents/WiSAR-Onboard-ROS/src/dji_sdk_read_cam/cmake-build-debug/CMakeFiles --progress-num=26,27 "Built target gtest"
 .PHONY : gtest/CMakeFiles/gtest.dir/all
 
 # Build rule for subdir invocation for target.

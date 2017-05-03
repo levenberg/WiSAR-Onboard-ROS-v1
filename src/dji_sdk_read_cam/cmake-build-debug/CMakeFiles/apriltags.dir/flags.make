@@ -6,5 +6,5 @@ CXX_FLAGS = -std=c++11  -fopenmp -O3 -DNDEBUG -fPIC
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_PACKAGE_NAME=\"dji_sdk_read_cam\" -Dapriltags_EXPORTS
 
-CXX_INCLUDES = -I/home/kelfor/Documents/WiSAR-Onboard-ROS/src/dji_sdk_read_cam/cmake-build-debug/devel/include -I/usr/include/opencv -I/home/kelfor/Documents/WiSAR-Onboard-ROS/src/dji_sdk_read_cam/include -I/home/kelfor/Documents/WiSAR-Onboard-ROS/src/dji_sdk_read_cam/include/AprilTags -I/home/kelfor/Documents/WiSAR-Onboard-ROS/src/dji_sdk_read_cam/include/DJI -I/home/kelfor/Documents/WiSAR-Onboard-ROS/devel/include -I/home/kelfor/Documents/WiSAR-Onboard-ROS/src/dji_sdk/include -I/home/kelfor/Documents/WiSAR-Onboard-ROS/src/dji_sdk_lib/include -I/opt/ros/indigo/include -I/usr/include/eigen3 
+CXX_INCLUDES = -I/home/kelfor/Documents/WiSAR-Onboard-ROS/src/dji_sdk_read_cam/cmake-build-debug/devel/include -I/usr/include/opencv -I/home/kelfor/Documents/WiSAR-Onboard-ROS/src/dji_sdk_read_cam/include -I/home/kelfor/Documents/WiSAR-Onboard-ROS/src/dji_sdk_read_cam/include/AprilTags -I/home/kelfor/Documents/WiSAR-Onboard-ROS/src/dji_sdk_read_cam/include/DJI -I/opt/ros/indigo/include -I/home/kelfor/Documents/WiSAR-Onboard-ROS/devel/include -I/home/kelfor/Documents/WiSAR-Onboard-ROS/src/dji_sdk/include -I/home/kelfor/Documents/WiSAR-Onboard-ROS/src/dji_sdk_lib/include -I/usr/include/eigen3 
 

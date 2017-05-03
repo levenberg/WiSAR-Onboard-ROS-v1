@@ -188,7 +188,7 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/CMakeLists.txt" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../flir-vue-pro/src/flir_vue_read_cam/CMakeLists.txt" />
   </component>
   <component name="RunManager" selected="Application.Build All">
     <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dji_sdk_demo_mine" TARGET_NAME="actionlib_generate_messages_cpp" CONFIG_NAME="Debug">
@@ -382,12 +382,12 @@
       <option name="presentableId" value="Default" />
       <updated>1493795665268</updated>
       <workItem from="1493795666844" duration="312000" />
-      <workItem from="1493804503881" duration="302000" />
+      <workItem from="1493804503881" duration="1111000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="614000" />
+    <option name="totallyTimeSpent" value="1423000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="75" y="64" width="1355" height="836" extended-state="0" />

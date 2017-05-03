@@ -34,10 +34,10 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../include"
   "../include/AprilTags"
   "../include/DJI"
+  "/opt/ros/indigo/include"
   "/home/kelfor/Documents/WiSAR-Onboard-ROS/devel/include"
   "/home/kelfor/Documents/WiSAR-Onboard-ROS/src/dji_sdk/include"
   "/home/kelfor/Documents/WiSAR-Onboard-ROS/src/dji_sdk_lib/include"
-  "/opt/ros/indigo/include"
   "/usr/include/eigen3"
   )
 
