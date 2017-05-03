@@ -144,6 +144,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/opt/ros/indigo/share/image_transport/cmake/image_transportConfig.cmake"
   "/opt/ros/indigo/share/message_filters/cmake/message_filtersConfig-version.cmake"
   "/opt/ros/indigo/share/message_filters/cmake/message_filtersConfig.cmake"
+  "/opt/ros/indigo/share/message_generation/cmake/message_generationConfig-version.cmake"
+  "/opt/ros/indigo/share/message_generation/cmake/message_generationConfig.cmake"
   "/opt/ros/indigo/share/message_runtime/cmake/message_runtimeConfig-version.cmake"
   "/opt/ros/indigo/share/message_runtime/cmake/message_runtimeConfig.cmake"
   "/opt/ros/indigo/share/nav_msgs/cmake/nav_msgs-msg-extras.cmake"

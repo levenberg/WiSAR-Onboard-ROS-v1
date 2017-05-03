@@ -14,6 +14,7 @@ find_package(catkin REQUIRED COMPONENTS
   sensor_msgs
   std_msgs
   dji_sdk
+        message_generation
 )
 find_package(OpenCV REQUIRED)
 find_package(OpenMP REQUIRED)
