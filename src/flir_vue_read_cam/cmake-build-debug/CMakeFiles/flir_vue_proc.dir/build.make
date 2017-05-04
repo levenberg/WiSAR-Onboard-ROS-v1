@@ -57,28 +57,28 @@ include CMakeFiles/flir_vue_proc.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/flir_vue_proc.dir/flags.make
 
-CMakeFiles/flir_vue_proc.dir/src/flir_vue_read.cpp.o: CMakeFiles/flir_vue_proc.dir/flags.make
-CMakeFiles/flir_vue_proc.dir/src/flir_vue_read.cpp.o: ../src/flir_vue_read.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kelfor/Documents/flir-vue-pro/src/flir_vue_read_cam/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/flir_vue_proc.dir/src/flir_vue_read.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/flir_vue_proc.dir/src/flir_vue_read.cpp.o -c /home/kelfor/Documents/flir-vue-pro/src/flir_vue_read_cam/src/flir_vue_read.cpp
+CMakeFiles/flir_vue_proc.dir/src/flir_vue_proc_main.cpp.o: CMakeFiles/flir_vue_proc.dir/flags.make
+CMakeFiles/flir_vue_proc.dir/src/flir_vue_proc_main.cpp.o: ../src/flir_vue_proc_main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kelfor/Documents/flir-vue-pro/src/flir_vue_read_cam/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/flir_vue_proc.dir/src/flir_vue_proc_main.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/flir_vue_proc.dir/src/flir_vue_proc_main.cpp.o -c /home/kelfor/Documents/flir-vue-pro/src/flir_vue_read_cam/src/flir_vue_proc_main.cpp
 
-CMakeFiles/flir_vue_proc.dir/src/flir_vue_read.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/flir_vue_proc.dir/src/flir_vue_read.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kelfor/Documents/flir-vue-pro/src/flir_vue_read_cam/src/flir_vue_read.cpp > CMakeFiles/flir_vue_proc.dir/src/flir_vue_read.cpp.i
+CMakeFiles/flir_vue_proc.dir/src/flir_vue_proc_main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/flir_vue_proc.dir/src/flir_vue_proc_main.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kelfor/Documents/flir-vue-pro/src/flir_vue_read_cam/src/flir_vue_proc_main.cpp > CMakeFiles/flir_vue_proc.dir/src/flir_vue_proc_main.cpp.i
 
-CMakeFiles/flir_vue_proc.dir/src/flir_vue_read.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/flir_vue_proc.dir/src/flir_vue_read.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kelfor/Documents/flir-vue-pro/src/flir_vue_read_cam/src/flir_vue_read.cpp -o CMakeFiles/flir_vue_proc.dir/src/flir_vue_read.cpp.s
+CMakeFiles/flir_vue_proc.dir/src/flir_vue_proc_main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/flir_vue_proc.dir/src/flir_vue_proc_main.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kelfor/Documents/flir-vue-pro/src/flir_vue_read_cam/src/flir_vue_proc_main.cpp -o CMakeFiles/flir_vue_proc.dir/src/flir_vue_proc_main.cpp.s
 
-CMakeFiles/flir_vue_proc.dir/src/flir_vue_read.cpp.o.requires:
+CMakeFiles/flir_vue_proc.dir/src/flir_vue_proc_main.cpp.o.requires:
 
-.PHONY : CMakeFiles/flir_vue_proc.dir/src/flir_vue_read.cpp.o.requires
+.PHONY : CMakeFiles/flir_vue_proc.dir/src/flir_vue_proc_main.cpp.o.requires
 
-CMakeFiles/flir_vue_proc.dir/src/flir_vue_read.cpp.o.provides: CMakeFiles/flir_vue_proc.dir/src/flir_vue_read.cpp.o.requires
-	$(MAKE) -f CMakeFiles/flir_vue_proc.dir/build.make CMakeFiles/flir_vue_proc.dir/src/flir_vue_read.cpp.o.provides.build
-.PHONY : CMakeFiles/flir_vue_proc.dir/src/flir_vue_read.cpp.o.provides
+CMakeFiles/flir_vue_proc.dir/src/flir_vue_proc_main.cpp.o.provides: CMakeFiles/flir_vue_proc.dir/src/flir_vue_proc_main.cpp.o.requires
+	$(MAKE) -f CMakeFiles/flir_vue_proc.dir/build.make CMakeFiles/flir_vue_proc.dir/src/flir_vue_proc_main.cpp.o.provides.build
+.PHONY : CMakeFiles/flir_vue_proc.dir/src/flir_vue_proc_main.cpp.o.provides
 
-CMakeFiles/flir_vue_proc.dir/src/flir_vue_read.cpp.o.provides.build: CMakeFiles/flir_vue_proc.dir/src/flir_vue_read.cpp.o
+CMakeFiles/flir_vue_proc.dir/src/flir_vue_proc_main.cpp.o.provides.build: CMakeFiles/flir_vue_proc.dir/src/flir_vue_proc_main.cpp.o
 
 
 CMakeFiles/flir_vue_proc.dir/src/infraredProcessor.cpp.o: CMakeFiles/flir_vue_proc.dir/flags.make
@@ -107,13 +107,13 @@ CMakeFiles/flir_vue_proc.dir/src/infraredProcessor.cpp.o.provides.build: CMakeFi
 
 # Object files for target flir_vue_proc
 flir_vue_proc_OBJECTS = \
-"CMakeFiles/flir_vue_proc.dir/src/flir_vue_read.cpp.o" \
+"CMakeFiles/flir_vue_proc.dir/src/flir_vue_proc_main.cpp.o" \
 "CMakeFiles/flir_vue_proc.dir/src/infraredProcessor.cpp.o"
 
 # External object files for target flir_vue_proc
 flir_vue_proc_EXTERNAL_OBJECTS =
 
-devel/lib/flir_vue_read_cam/flir_vue_proc: CMakeFiles/flir_vue_proc.dir/src/flir_vue_read.cpp.o
+devel/lib/flir_vue_read_cam/flir_vue_proc: CMakeFiles/flir_vue_proc.dir/src/flir_vue_proc_main.cpp.o
 devel/lib/flir_vue_read_cam/flir_vue_proc: CMakeFiles/flir_vue_proc.dir/src/infraredProcessor.cpp.o
 devel/lib/flir_vue_read_cam/flir_vue_proc: CMakeFiles/flir_vue_proc.dir/build.make
 devel/lib/flir_vue_read_cam/flir_vue_proc: /opt/ros/indigo/lib/libroscpp.so
@@ -142,7 +142,7 @@ CMakeFiles/flir_vue_proc.dir/build: devel/lib/flir_vue_read_cam/flir_vue_proc
 
 .PHONY : CMakeFiles/flir_vue_proc.dir/build
 
-CMakeFiles/flir_vue_proc.dir/requires: CMakeFiles/flir_vue_proc.dir/src/flir_vue_read.cpp.o.requires
+CMakeFiles/flir_vue_proc.dir/requires: CMakeFiles/flir_vue_proc.dir/src/flir_vue_proc_main.cpp.o.requires
 CMakeFiles/flir_vue_proc.dir/requires: CMakeFiles/flir_vue_proc.dir/src/infraredProcessor.cpp.o.requires
 
 .PHONY : CMakeFiles/flir_vue_proc.dir/requires

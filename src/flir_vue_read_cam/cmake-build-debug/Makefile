@@ -490,32 +490,32 @@ gtest/fast:
 	$(MAKE) -f gtest/CMakeFiles/gtest.dir/build.make gtest/CMakeFiles/gtest.dir/build
 .PHONY : gtest/fast
 
-src/flir_vue_read.o: src/flir_vue_read.cpp.o
+src/flir_vue_proc_main.o: src/flir_vue_proc_main.cpp.o
 
-.PHONY : src/flir_vue_read.o
+.PHONY : src/flir_vue_proc_main.o
 
 # target to build an object file
-src/flir_vue_read.cpp.o:
-	$(MAKE) -f CMakeFiles/flir_vue_proc.dir/build.make CMakeFiles/flir_vue_proc.dir/src/flir_vue_read.cpp.o
-.PHONY : src/flir_vue_read.cpp.o
+src/flir_vue_proc_main.cpp.o:
+	$(MAKE) -f CMakeFiles/flir_vue_proc.dir/build.make CMakeFiles/flir_vue_proc.dir/src/flir_vue_proc_main.cpp.o
+.PHONY : src/flir_vue_proc_main.cpp.o
 
-src/flir_vue_read.i: src/flir_vue_read.cpp.i
+src/flir_vue_proc_main.i: src/flir_vue_proc_main.cpp.i
 
-.PHONY : src/flir_vue_read.i
+.PHONY : src/flir_vue_proc_main.i
 
 # target to preprocess a source file
-src/flir_vue_read.cpp.i:
-	$(MAKE) -f CMakeFiles/flir_vue_proc.dir/build.make CMakeFiles/flir_vue_proc.dir/src/flir_vue_read.cpp.i
-.PHONY : src/flir_vue_read.cpp.i
+src/flir_vue_proc_main.cpp.i:
+	$(MAKE) -f CMakeFiles/flir_vue_proc.dir/build.make CMakeFiles/flir_vue_proc.dir/src/flir_vue_proc_main.cpp.i
+.PHONY : src/flir_vue_proc_main.cpp.i
 
-src/flir_vue_read.s: src/flir_vue_read.cpp.s
+src/flir_vue_proc_main.s: src/flir_vue_proc_main.cpp.s
 
-.PHONY : src/flir_vue_read.s
+.PHONY : src/flir_vue_proc_main.s
 
 # target to generate assembly for a file
-src/flir_vue_read.cpp.s:
-	$(MAKE) -f CMakeFiles/flir_vue_proc.dir/build.make CMakeFiles/flir_vue_proc.dir/src/flir_vue_read.cpp.s
-.PHONY : src/flir_vue_read.cpp.s
+src/flir_vue_proc_main.cpp.s:
+	$(MAKE) -f CMakeFiles/flir_vue_proc.dir/build.make CMakeFiles/flir_vue_proc.dir/src/flir_vue_proc_main.cpp.s
+.PHONY : src/flir_vue_proc_main.cpp.s
 
 src/infraredProcessor.o: src/infraredProcessor.cpp.o
 
@@ -582,9 +582,9 @@ help:
 	@echo "... flir_vue_read_cam_genpy"
 	@echo "... gtest_main"
 	@echo "... gtest"
-	@echo "... src/flir_vue_read.o"
-	@echo "... src/flir_vue_read.i"
-	@echo "... src/flir_vue_read.s"
+	@echo "... src/flir_vue_proc_main.o"
+	@echo "... src/flir_vue_proc_main.i"
+	@echo "... src/flir_vue_proc_main.s"
 	@echo "... src/infraredProcessor.o"
 	@echo "... src/infraredProcessor.i"
 	@echo "... src/infraredProcessor.s"

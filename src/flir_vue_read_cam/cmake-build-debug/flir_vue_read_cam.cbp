@@ -472,7 +472,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/kelfor/Documents/flir-vue-pro/src/flir_vue_read_cam/src/flir_vue_read.cpp">
+		<Unit filename="/home/kelfor/Documents/flir-vue-pro/src/flir_vue_read_cam/src/flir_vue_proc_main.cpp">
 			<Option target="flir_vue_proc"/>
 		</Unit>
 		<Unit filename="/home/kelfor/Documents/flir-vue-pro/src/flir_vue_read_cam/src/infraredProcessor.cpp">

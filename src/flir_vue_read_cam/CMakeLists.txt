@@ -194,6 +194,6 @@ include_directories(
 include_directories(include /usr/local/include /usr/include)
 link_directories(/usr/lib /usr/local/lib)
 
-add_executable(flir_vue_proc src/flir_vue_read.cpp src/infraredProcessor.cpp)
+add_executable(flir_vue_proc src/flir_vue_proc_main.cpp src/infraredProcessor.cpp)
 target_link_libraries(flir_vue_proc opencv_core opencv_highgui opencv_imgproc   ${catkin_LIBRARIES})
 

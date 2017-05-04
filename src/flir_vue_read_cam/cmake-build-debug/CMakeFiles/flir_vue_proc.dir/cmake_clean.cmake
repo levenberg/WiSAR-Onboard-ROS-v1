@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/flir_vue_proc.dir/src/flir_vue_read.cpp.o"
+  "CMakeFiles/flir_vue_proc.dir/src/flir_vue_proc_main.cpp.o"
   "CMakeFiles/flir_vue_proc.dir/src/infraredProcessor.cpp.o"
   "devel/lib/flir_vue_read_cam/flir_vue_proc.pdb"
   "devel/lib/flir_vue_read_cam/flir_vue_proc"

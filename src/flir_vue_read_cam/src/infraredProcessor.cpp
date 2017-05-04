@@ -28,7 +28,6 @@ Rect InfraredImageProcessor::getProposalROI(Mat &src_) {
 #ifdef SHOWIMG
     imshow("TopHat", src);
 #endif
-
     Mat dst(src.size(), CV_8UC1);
     double minVal, maxVal;
     minMaxIdx(src, &minVal, &maxVal);

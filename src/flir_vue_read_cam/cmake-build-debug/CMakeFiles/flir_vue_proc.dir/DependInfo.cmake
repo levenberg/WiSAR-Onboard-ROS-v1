@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/kelfor/Documents/flir-vue-pro/src/flir_vue_read_cam/src/flir_vue_read.cpp" "/home/kelfor/Documents/flir-vue-pro/src/flir_vue_read_cam/cmake-build-debug/CMakeFiles/flir_vue_proc.dir/src/flir_vue_read.cpp.o"
+  "/home/kelfor/Documents/flir-vue-pro/src/flir_vue_read_cam/src/flir_vue_proc_main.cpp" "/home/kelfor/Documents/flir-vue-pro/src/flir_vue_read_cam/cmake-build-debug/CMakeFiles/flir_vue_proc.dir/src/flir_vue_proc_main.cpp.o"
   "/home/kelfor/Documents/flir-vue-pro/src/flir_vue_read_cam/src/infraredProcessor.cpp" "/home/kelfor/Documents/flir-vue-pro/src/flir_vue_read_cam/cmake-build-debug/CMakeFiles/flir_vue_proc.dir/src/infraredProcessor.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
