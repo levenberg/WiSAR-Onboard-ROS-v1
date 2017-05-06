@@ -11,7 +11,7 @@ find_package(catkin REQUIRED COMPONENTS
         message_generation
 )
 
-
+find_package(OpenCV REQUIRED)
 
 set(CMAKE_BUILD_TYPE Release)
 ## System dependencies are found with CMake's conventions
@@ -195,5 +195,5 @@ include_directories(include /usr/local/include /usr/include)
 link_directories(/usr/lib /usr/local/lib)
 
 add_executable(flir_vue_proc src/flir_vue_proc_main.cpp src/infraredProcessor.cpp)
-target_link_libraries(flir_vue_proc opencv_core opencv_highgui opencv_imgproc   ${catkin_LIBRARIES})
+target_link_libraries(flir_vue_proc ${OpenCV_LIBS}   ${catkin_LIBRARIES})
 

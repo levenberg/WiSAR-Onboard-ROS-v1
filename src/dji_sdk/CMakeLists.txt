@@ -194,41 +194,7 @@ add_dependencies(dji_sdk_node
 
 ## Specify libraries to link a library or executable target against
 target_link_libraries(dji_sdk_node
-  ${catkin_LIBRARIES}add_message_files(
-  FILES
-  A3GPS.msg
-  A3RTK.msg
-  Acceleration.msg
-  AttitudeQuaternion.msg
-  Compass.msg
-  FlightControlInfo.msg
-  Gimbal.msg
-  GlobalPosition.msg
-  LocalPosition.msg
-  PowerStatus.msg
-  RCChannels.msg
-  Velocity.msg
-  Waypoint.msg
-  WaypointList.msg
-  TransparentTransmissionData.msg
-  TimeStamp.msg
-
-  MissionPushInfo.msg
-  MissionWaypointAction.msg
-  MissionWaypoint.msg
-  MissionWaypointTask.msg
-  MissionHotpointTask.msg
-  MissionFollowmeTask.msg
-  MissionFollowmeTarget.msg
-  MissionStatusWaypoint.msg
-  MissionStatusHotpoint.msg
-  MissionStatusFollowme.msg
-  MissionStatusOther.msg
-  MissionEventWpUpload.msg
-  MissionEventWpAction.msg
-  MissionEventWpReach.msg
-
-)
+  ${catkin_LIBRARIES}
 
 )
 
