@@ -11,18 +11,37 @@
 -- Found gtest sources under '/usr/src/gtest': gtests will be built
 -- Using Python nosetests: /usr/bin/nosetests-2.7
 -- catkin 0.6.18
--- Using these message generators: gencpp;genlisp;genpy
-openMP found
--- dji_sdk_read_cam: 2 messages, 0 services
-CMake Warning at /opt/ros/indigo/share/catkin/cmake/catkin_package.cmake:409 (message):
-  catkin_package() include dir
-  '/home/kelfor/Documents/WiSAR-Onboard-ROS/src/dji_sdk_read_cam/cmake-build-debug/devel/include'
-  should be placed in the devel space instead of the build space
+CMake Warning at /opt/ros/indigo/share/catkin/cmake/catkinConfig.cmake:76 (find_package):
+  Could not find a package configuration file provided by "dji_sdk" with any
+  of the following names:
+
+    dji_sdkConfig.cmake
+    dji_sdk-config.cmake
+
+  Add the installation prefix of "dji_sdk" to CMAKE_PREFIX_PATH or set
+  "dji_sdk_DIR" to a directory containing one of the above files.  If
+  "dji_sdk" provides a separate development package or SDK, be sure it has
+  been installed.
 Call Stack (most recent call first):
-  /opt/ros/indigo/share/catkin/cmake/catkin_package.cmake:98 (_catkin_package)
-  CMakeLists.txt:44 (catkin_package)
+  CMakeLists.txt:9 (find_package)
 
 
--- Configuring done
--- Generating done
--- Build files have been written to: /home/kelfor/Documents/WiSAR-Onboard-ROS/src/dji_sdk_read_cam/cmake-build-debug
+-- Could not find the required component 'dji_sdk'. The following CMake error indicates that you either need to install the package with the same name or change your environment so that it can be found.
+CMake Error at /opt/ros/indigo/share/catkin/cmake/catkinConfig.cmake:83 (find_package):
+  Could not find a package configuration file provided by "dji_sdk" with any
+  of the following names:
+
+    dji_sdkConfig.cmake
+    dji_sdk-config.cmake
+
+  Add the installation prefix of "dji_sdk" to CMAKE_PREFIX_PATH or set
+  "dji_sdk_DIR" to a directory containing one of the above files.  If
+  "dji_sdk" provides a separate development package or SDK, be sure it has
+  been installed.
+Call Stack (most recent call first):
+  CMakeLists.txt:9 (find_package)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/kelfor/Documents/WiSAR-Onboard-ROS/src/dji_sdk_read_cam/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "/home/kelfor/Documents/WiSAR-Onboard-ROS/src/dji_sdk_read_cam/cmake-build-debug/CMakeFiles/CMakeError.log".

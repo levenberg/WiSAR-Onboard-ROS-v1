@@ -24,14 +24,12 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="dji_drone.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dji_sdk/include/dji_sdk/dji_drone.h">
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dji_sdk_read_cam/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4485">
-              <caret line="299" column="65" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="945" selection-end-column="0" />
-              <folding>
-                <element signature="e#19944#20174#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="76">
+              <caret line="70" column="63" lean-forward="false" selection-start-line="70" selection-start-column="42" selection-end-line="70" selection-end-column="63" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -152,18 +150,18 @@
       <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/m100_base_controller/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="167" column="27" lean-forward="true" selection-start-line="167" selection-start-column="27" selection-end-line="167" selection-end-column="27" />
+            <state relative-caret-position="246">
+              <caret line="195" column="70" lean-forward="false" selection-start-line="195" selection-start-column="70" selection-end-line="195" selection-end-column="70" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="client_new.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WiSAR_demo/src/client_new.cpp">
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pid/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="990">
-              <caret line="66" column="5" lean-forward="false" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
+            <state relative-caret-position="62">
+              <caret line="76" column="66" lean-forward="false" selection-start-line="76" selection-start-column="66" selection-end-line="76" selection-end-column="66" />
               <folding />
             </state>
           </provider>
@@ -189,31 +187,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="apriltagdetector.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dji_sdk_read_cam/src/apriltagdetector.cpp">
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dji_sdk/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2655">
-              <caret line="177" column="32" lean-forward="false" selection-start-line="177" selection-start-column="32" selection-end-line="177" selection-end-column="32" />
+            <state relative-caret-position="3000">
+              <caret line="200" column="13" lean-forward="false" selection-start-line="200" selection-start-column="13" selection-end-line="200" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dji_sdk/CMakeLists.txt">
+        <entry file="file://$PROJECT_DIR$/flir_vue_read_cam/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3000">
-              <caret line="200" column="13" lean-forward="true" selection-start-line="200" selection-start-column="13" selection-end-line="200" selection-end-column="13" />
+            <state relative-caret-position="246">
+              <caret line="198" column="70" lean-forward="false" selection-start-line="198" selection-start-column="70" selection-end-line="198" selection-end-column="70" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/flir_vue_read_cam/CMakeLists.txt">
+      <file leaf-file-name="package.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/flir_vue_read_cam/package.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="197" column="49" lean-forward="false" selection-start-line="197" selection-start-column="49" selection-end-line="197" selection-end-column="49" />
+            <state relative-caret-position="282">
+              <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -249,10 +247,11 @@
         <option value="$PROJECT_DIR$/WiSAR_demo/include/wisar_drone.h" />
         <option value="$PROJECT_DIR$/WiSAR_demo/src/client_new.cpp" />
         <option value="$PROJECT_DIR$/m100_base_controller/src/base_controller.cpp" />
-        <option value="$PROJECT_DIR$/m100_base_controller/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/WiSAR_demo/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/dji_sdk/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/flir_vue_read_cam/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/m100_base_controller/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/pid/CMakeLists.txt" />
       </list>
     </option>
   </component>
@@ -323,6 +322,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="pid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="m100_base_controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -370,6 +383,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="flir_vue_read_cam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="flir_vue_read_cam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dji_sdk_read_cam" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -585,12 +630,12 @@
       <workItem from="1493796674225" duration="7563000" />
       <workItem from="1493813149236" duration="6000" />
       <workItem from="1493813255920" duration="21000" />
-      <workItem from="1494085434640" duration="672000" />
+      <workItem from="1494085434640" duration="1727000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8438000" />
+    <option name="totallyTimeSpent" value="9493000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="75" y="64" width="1355" height="836" extended-state="0" />
@@ -626,16 +671,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dji_sdk/include/dji_sdk/dji_drone.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4485">
-          <caret line="299" column="65" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="945" selection-end-column="0" />
-          <folding>
-            <element signature="e#19944#20174#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WiSAR_Drone/include/wisar_drone.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4425">
@@ -1020,13 +1055,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dji_sdk/msg/DetectionPoints.msg" />
     <entry file="file://$PROJECT_DIR$/dji_sdk/msg/AprilTagPose.msg" />
-    <entry file="file://$PROJECT_DIR$/pid/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
@@ -1038,13 +1066,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="43" column="44" lean-forward="false" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dji_sdk_read_cam/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="613">
-          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="43" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -1263,26 +1284,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/m100_base_controller/CMakeLists.txt">
+    <entry file="file://$PROJECT_DIR$/dji_sdk/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="167" column="27" lean-forward="true" selection-start-line="167" selection-start-column="27" selection-end-line="167" selection-end-column="27" />
+        <state relative-caret-position="3000">
+          <caret line="200" column="13" lean-forward="false" selection-start-line="200" selection-start-column="13" selection-end-line="200" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dji_sdk/CMakeLists.txt">
+    <entry file="file://$PROJECT_DIR$/flir_vue_read_cam/package.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3000">
-          <caret line="200" column="13" lean-forward="true" selection-start-line="200" selection-start-column="13" selection-end-line="200" selection-end-column="13" />
+        <state relative-caret-position="282">
+          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dji_sdk_read_cam/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="70" column="63" lean-forward="false" selection-start-line="70" selection-start-column="42" selection-end-line="70" selection-end-column="63" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/flir_vue_read_cam/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="197" column="49" lean-forward="false" selection-start-line="197" selection-start-column="49" selection-end-line="197" selection-end-column="49" />
+        <state relative-caret-position="246">
+          <caret line="198" column="70" lean-forward="false" selection-start-line="198" selection-start-column="70" selection-end-line="198" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m100_base_controller/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="195" column="70" lean-forward="false" selection-start-line="195" selection-start-column="70" selection-end-line="195" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pid/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="76" column="66" lean-forward="false" selection-start-line="76" selection-start-column="66" selection-end-line="76" selection-end-column="66" />
           <folding />
         </state>
       </provider>

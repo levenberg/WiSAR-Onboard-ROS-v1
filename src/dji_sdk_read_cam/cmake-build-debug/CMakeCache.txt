@@ -292,7 +292,7 @@ cpp_common_DIR:PATH=/opt/ros/indigo/share/cpp_common/cmake
 cv_bridge_DIR:PATH=/opt/ros/indigo/share/cv_bridge/cmake
 
 //The directory containing a CMake configuration file for dji_sdk.
-dji_sdk_DIR:PATH=/home/kelfor/Documents/WiSAR-Onboard-ROS/devel/share/dji_sdk/cmake
+dji_sdk_DIR:PATH=dji_sdk_DIR-NOTFOUND
 
 //The directory containing a CMake configuration file for dji_sdk_lib.
 dji_sdk_lib_DIR:PATH=/home/kelfor/Documents/WiSAR-Onboard-ROS/devel/share/dji_sdk_lib/cmake
@@ -347,7 +347,7 @@ gtest_main_LIB_DEPENDS:STATIC=general;-lpthread;general;gtest;
 image_transport_DIR:PATH=/opt/ros/indigo/share/image_transport/cmake
 
 //Path to a library.
-lib:FILEPATH=/home/kelfor/Documents/WiSAR-Onboard-ROS/devel/lib/libdji_sdk_lib.a
+lib:FILEPATH=/opt/ros/indigo/lib/libroslib.so
 
 //The directory containing a CMake configuration file for message_filters.
 message_filters_DIR:PATH=/opt/ros/indigo/share/message_filters/cmake

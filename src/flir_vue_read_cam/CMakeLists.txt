@@ -196,4 +196,4 @@ link_directories(/usr/lib /usr/local/lib)
 
 add_executable(flir_vue_proc src/flir_vue_proc_main.cpp src/infraredProcessor.cpp)
 target_link_libraries(flir_vue_proc ${OpenCV_LIBS}   ${catkin_LIBRARIES})
-
+add_dependencies(flir_vue_proc flir_vue_read_cam_generate_messages_cpp)
