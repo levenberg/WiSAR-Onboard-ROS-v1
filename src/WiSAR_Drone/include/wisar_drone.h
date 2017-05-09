@@ -4,6 +4,7 @@
 #include <ros/ros.h>
 #include <nav_msgs/Odometry.h>
 #include <std_msgs/UInt8.h>
+#include <std_msgs/Bool.h>
 #include <actionlib/client/simple_action_client.h>
 #include <actionlib/client/terminal_state.h>
 #include <string>
@@ -12,6 +13,7 @@
 //#include <dji_sdk_read_cam/AprilTagPose.h>
 #include <std_msgs/Float64.h>
 #include <dji_sdk_read_cam/AprilTagDetection.h>
+#include <flir_vue_read_cam/proposal_roi_msg.h>
 
 
 //#define FILTER_USED
@@ -95,6 +97,14 @@ private:
 //#else
     //Add a suscriber to listen to apriltag_detecion_pose
     ros::Subscriber apriltag_detection_subscriber;
+
+
+
+
+    //For FLIR VUE PRO RECORDING
+    ros::Publisher flir_vue_record_pub;
+    //For FLIR VUE ROI TRANSFERING
+    ros::Subscriber flir_vue_roi_sub;
 //#endif
 public:
     dji_sdk::Acceleration acceleration;
@@ -310,14 +320,32 @@ private:
     //Add callback for data_received_from_mobile
     void data_received_from_mobile_callback ( const dji_sdk::TransparentTransmissionData transparentdata )
     {
-        this->transparentdata = transparentdata;
-        this->transparentdata.data = transparentdata.data;
+
         if ( transparentdata.data.at ( 0 ) == 'q' ) // For control request
         {
+            this->transparentdata = transparentdata;
+            this->transparentdata.data = transparentdata.data;
             while ( !request_sdk_permission_control() )
             {
                 usleep ( 50000 );
             }
+        }
+        else if(transparentdata.data.at ( 0 ) == 'r')
+        {
+            std_msgs::Bool startRecord;
+            startRecord.data = true;
+            flir_vue_record_pub.publish(startRecord);
+        }
+        else if(transparentdata.data.at ( 0 ) == 't')
+        {
+            std_msgs::Bool record;
+            record.data = false;
+            flir_vue_record_pub.publish(record);
+        }
+        else
+        {
+            this->transparentdata = transparentdata;
+            this->transparentdata.data = transparentdata.data;
         }
     }
 
@@ -343,7 +371,22 @@ private:
         }
 
     }
+    void receive_flir_vue_roi_callback(const flir_vue_read_cam::proposal_roi_msg & roi) {
+        string imformation_data = "0000000000000000000000000000000000000000000000";
+        // imformation_data.push_back('~');//Make it not empty.
+        if (roi.id >= 0) {
+            //  ROS_INFO ( "id:%d x0:%d,y0:%d,x1:%d,y1:%d",detectionPoints.id,detectionPoints.x0,detectionPoints.y0,detectionPoints.x1,detectionPoints.y1 );
+            sprintf(&imformation_data[0], "%03d%03d%03d%03d%03d%03d%03d%03d%03d%.6f%.6f", roi.x0, roi.y0,
+                    roi.x1, roi.y1, roi.x2, roi.y2, roi.x3,
+                    roi.y3, roi.id, global_position.longitude, global_position.latitude);
+            // send_data_to_mobile_devide(imformation_data,34);
+            vector <uint8_t> pushData(imformation_data.begin(), imformation_data.end());
+            // cout<<&pushData[0]<<endl;
+            if (!send_data_to_mobile_devide(pushData, pushData.size()))
+                ROS_INFO("Send data to mobile. Failed.");
 
+        }
+    }
 
 
 public:
@@ -415,6 +458,8 @@ public:
         //Subscribe the data_received_from_remote_device
         data_received_from_remote_device_subscriber = nh.subscribe<dji_sdk::TransparentTransmissionData> ( "dji_sdk/data_received_from_remote_device",10,&DJIDrone::data_received_from_mobile_callback,this );
 
+        flir_vue_record_pub = nh.advertise<std_msgs::Bool>("record_infrared",100);
+        flir_vue_roi_sub = nh.subscribe("flir_vue_proc/proposal_roi",100,&DJIDrone::receive_flir_vue_roi_callback,this);
 
 #ifdef PID_USED
         y_control_effort_sub = nh.subscribe ( "left_wheel/controller_y",10,&DJIDrone::control_y_fromPID_callback,this );

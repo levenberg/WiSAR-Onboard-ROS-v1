@@ -143,7 +143,7 @@ include_directories(
 add_executable(WiSAR_Demo src/client_new.cpp)
 target_link_libraries(WiSAR_Demo  ${catkin_LIBRARIES}
 )
-add_dependencies(WiSAR_Demo dji_sdk_generate_messages_cpp)
+add_dependencies(WiSAR_Demo dji_sdk_generate_messages_cpp dji_sdk dji_sdk_read_cam flir_vue_reac_cam)
 
 #############
 ## Install ##

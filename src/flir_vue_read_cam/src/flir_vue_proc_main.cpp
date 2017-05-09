@@ -51,11 +51,14 @@ int main(int argc, char ** argv)
     ros::Publisher proposalROI_pub = n.advertise<flir_vue_read_cam::proposal_roi_msg>("flir_vue_proc/proposal_roi",100);
     ros::Subscriber recordVideo_sub = n.subscribe("record_infrared",100,onStartEndRecordCallback);
     ros::Rate loop(30);
+
+    int device_id = 0;
+    n.param<int>("device_id",device_id,0);
     VideoCapture vcap;
     VideoWriter* videoWriter = NULL;
 
     InfraredImageProcessor infraredImageProc;
-    vcap.open(0);
+    vcap.open(device_id);
     Mat frame;
     Rect mROI;
     namedWindow("ROI",1);
@@ -75,9 +78,14 @@ int main(int argc, char ** argv)
             case 1:
             {
                 char currentDateTime[50];
-                time_t time(0);
-                strftime(currentDateTime, sizeof(currentDateTime), "%F", localtime(&time));
-                videoWriter = new VideoWriter(currentDateTime, CV_FOURCC('x', 'v', 'I', 'D'), 25, frame.size());
+                time_t now;
+                time(&now);
+                strftime(currentDateTime, sizeof(currentDateTime), "%Y-%b-%d_%H-%M.avi", localtime(&now));
+                if(videoWriter->isOpened())
+                {
+                    videoWriter->release();
+                }
+                videoWriter = new VideoWriter(currentDateTime, CV_FOURCC('X', 'V', 'I', 'D'), 25, frame.size());
                 if (videoWriter->isOpened()) {
                     videoWriter->write(frame);
                     recordFlag = 2;
