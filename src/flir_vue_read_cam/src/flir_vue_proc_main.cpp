@@ -26,7 +26,9 @@ void publish_ROI(Rect & roi,ros::Publisher& pub)
     msg.x3 = roi.br().x;
     msg.y3 = roi.br().y;
 
+    msg.id = -1;//FOR ROI Detectiongit puu 
     msg.header.frame_id = "/infrared_roi";
+
 
     pub.publish(msg);
 }
