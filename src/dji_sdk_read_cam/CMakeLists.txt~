@@ -61,7 +61,7 @@ set(CMAKE_BUILD_TYPE Release)
 #)
  file(GLOB SOURCE_FILES "src/AprilTags/*.cc")
 # 
- add_library(apriltags STATIC ${SOURCE_FILES} )#Seems SHARED libraries are not fine with the project.
+ add_library(apriltags SHARED ${SOURCE_FILES} )#Seems SHARED libraries are not fine with the project.
 #  
  link_directories(${PROJECT_SOURCE_DIR}/lib)
 link_directories(lib /usr/local/lib /usr/lib/arm-linux-gnueabihf /usr/lib)

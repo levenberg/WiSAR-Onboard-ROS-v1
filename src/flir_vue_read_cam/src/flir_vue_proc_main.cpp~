@@ -87,7 +87,7 @@ int main(int argc, char ** argv)
                 {
                     videoWriter->release();
                 }
-                videoWriter = new VideoWriter(currentDateTime, CV_FOURCC('X', 'V', 'I', 'D'), 7.5, frame.size());
+                videoWriter = new VideoWriter(currentDateTime, CV_FOURCC('X', 'V', 'I', 'D'), 25, frame.size());
                 if (videoWriter->isOpened()) {
                     videoWriter->write(frame);
                     recordFlag = 2;
